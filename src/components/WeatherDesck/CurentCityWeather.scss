@@ -1,0 +1,69 @@
+@import url('commonWeather.scss');
+
+.user-city{
+    display: flex;
+    justify-content: center;
+    
+    &__link:active{
+        outline: none;
+        opacity: 0.6;
+    }
+
+    &__link:hover {
+    // -webkit-transform: scale(0.7);
+    // -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+
+  &__description{
+    background-color: rgba(75, 37, 37, 0.25);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    width: 315px;
+    color: #fff;
+    display: block;
+  }
+
+  &__geoloc-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular' sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  &__cityTitle{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    // padding-top: 5px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    &__main{
+    display: block;
+    margin-bottom: 10px;
+    }
+  }
+
+
+
+.user-city__other{
+    display: block;
+    font-size: 17px;
+    text-align: right;
+}
+
+.humidity{
+    padding-bottom: 10px;
+}
+
+.main__list-icon_pic{
+    // vertical-align: 50%;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+

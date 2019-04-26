@@ -1,0 +1,73 @@
+
+.wrapp-desck{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: end;
+    justify-content: center;
+}
+
+.detailed-weather{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailed-weather__list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.detailed-weather__main{
+    background-color: rgba(75, 37, 37, 0.25);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    width: 215px;
+    margin-left: 15px;
+    color: #fff;
+    display: block;
+}
+
+.mod{
+    
+    padding-left: 10px;
+}
+
+.mod-align{
+    padding-right: 10px;
+}
+
+.detailed-weather__list-head{
+    font-size: 19px;
+    vertical-align: 50%;
+}
+
+.detailed-weather__list-temperature{
+    font-size: 19px;
+    vertical-align: 50%
+}
+
+.detailed-weather__other{
+    display: block;
+    font-size: 17px;
+    // text-align: right;
+}
+
+.humidity{
+    padding-bottom: 10px;
+}
+
+.detailed-weather__list-icon_pic{
+    // vertical-align: 50%;
+    
+    width: 35px;
+    height: 35px;
+}
